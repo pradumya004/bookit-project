@@ -8,7 +8,7 @@ import { useBookingContext } from "../context/BookingContext";
 
 const ConfirmationPage: React.FC = () => {
   const navigate = useNavigate();
-  const { bookingDetails, resetBooking } = useBookingContext();
+  const { bookingDetails } = useBookingContext();
 
   console.log("ConfirmationPage: bookingDetails:", bookingDetails);
 

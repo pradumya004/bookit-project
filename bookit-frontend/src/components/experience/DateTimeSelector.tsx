@@ -2,7 +2,7 @@
 
 import React from "react";
 import type { Slot } from "../../types";
-import { formatDate, formatTime } from "../../utils/formatters";
+import { formatTime } from "../../utils/formatters";
 
 interface DateTimeSelectorProps {
   slots: Slot[];
@@ -47,7 +47,6 @@ const DateTimeSelector: React.FC<DateTimeSelectorProps> = ({
           {slots.map((slot) => {
             // Format date for display (Oct 22, Oct 23, etc.)
             const dateObj = new Date(slot.date);
-            const dateDisplay = `${dateObj.getDate()} Oct ${dateObj.getFullYear()}`;
 
             // For comparison to determine if this date is selected
             const slotDateStr = dateObj.toISOString().split("T")[0];

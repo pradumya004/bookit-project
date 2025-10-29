@@ -1,6 +1,6 @@
 // bookit-frontend/src/pages/DetailsPage.tsx
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import Header from "../components/common/Header";
 import LoadingSpinner from "../components/common/LoadingSpinner";

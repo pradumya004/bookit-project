@@ -2,7 +2,7 @@
 
 import { useState, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import type { BookingFormData, BookingDetails, PromoCode } from "../types";
+import type { BookingFormData, PromoCode } from "../types";
 import { createBooking } from "../services/bookingService";
 import { validatePromoCode } from "../services/promoService";
 import { useBookingContext } from "../context/BookingContext";

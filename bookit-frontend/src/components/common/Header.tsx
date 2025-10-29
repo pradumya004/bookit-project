@@ -14,7 +14,6 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({
   showSearchBar = true,
-  title,
   showBackButton = false,
   onBackClick,
   onSearch,
@@ -22,9 +21,6 @@ const Header: React.FC<HeaderProps> = ({
   const location = useLocation();
   const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = useState("");
-
-  const isCheckoutPage = location.pathname.includes("checkout");
-  const isConfirmationPage = location.pathname.includes("confirmation");
 
   // Handle search function
   const handleSearchChange = (query: string) => {
