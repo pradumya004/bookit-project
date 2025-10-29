@@ -9,7 +9,7 @@ The application follows a complete booking flow: browsing experiences on the hom
 ## 🔗 Live Demo
 
 - **Frontend**: [BookIt Web App](https://bookit-project-seven.vercel.app/)
-- **Backend API**: [BookIt API](https://bookit-backend-seven.vercel.app/api)
+- **Backend API**: [BookIt API](https://bookit-backend-seven.vercel.app)
 
 ## 📋 Table of Contents
 
@@ -529,7 +529,7 @@ Phone: +91 7574927165
 ### Project Links
 - **GitHub Repository**: [https://github.com/your-username/bookit-project](https://github.com/pradumya004/bookit-project)
 - **Frontend Demo**: [https://bookit-six-gamma.vercel.app/](https://bookit-project-seven.vercel.app/)
-- **Backend API**: [https://bookit-backend-seven.vercel.app/api](https://bookit-backend-seven.vercel.app/api)
+- **Backend API**: [https://bookit-backend-seven.vercel.app/api](https://bookit-backend-seven.vercel.app)
 
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -538,3 +538,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 
 © 2025 Pradumya Gaurav. All rights reserved."
+
