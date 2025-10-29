@@ -12,7 +12,7 @@ const app = express();
 // Middleware
 app.use(
   cors({
-    origin: ["https://bookit-project-seven.vercel.app/", "http://localhost:5173"],
+    origin: ["https://bookit-project-seven.vercel.app", "http://localhost:5173"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
@@ -33,4 +33,5 @@ app.get("/", (req: Request, res: Response) => {
 app.use(errorHandler);
 
 export default app;
+
 
