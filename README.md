@@ -8,7 +8,7 @@ The application follows a complete booking flow: browsing experiences on the hom
 
 ## 🔗 Live Demo
 
-- **Frontend**: [BookIt Web App](https://bookit-six-gamma.vercel.app/)
+- **Frontend**: [BookIt Web App](https://bookit-project-seven.vercel.app/)
 - **Backend API**: [BookIt API](https://bookit-backend-seven.vercel.app/api)
 
 ## 📋 Table of Contents
@@ -445,25 +445,6 @@ Once both servers are running:
 ```
 
 ## 🧪 Testing
-
-### Backend Testing
-```bash
-# Navigate to backend directory
-cd backend
-
-# Run tests
-npm test
-```
-
-### Frontend Testing
-```bash
-# Navigate to frontend directory
-cd frontend
-
-# Run tests
-npm test
-```
-
 ### Manual Testing Checklist
 1. Home page loads and displays experiences
 2. Search functionality works correctly
@@ -546,13 +527,14 @@ Email: [pradumya004@gmail.com](mailto:pradumya004@gmail.com)
 Phone: +91 7574927165
 
 ### Project Links
-- **GitHub Repository**: [https://github.com/your-username/bookit-project](https://github.com/your-username/bookit-project)
-- **Frontend Demo**: [https://bookit-six-gamma.vercel.app/](https://bookit-six-gamma.vercel.app/)
+- **GitHub Repository**: [https://github.com/your-username/bookit-project](https://github.com/pradumya004/bookit-project)
+- **Frontend Demo**: [https://bookit-six-gamma.vercel.app/](https://bookit-project-seven.vercel.app/)
 - **Backend API**: [https://bookit-backend-seven.vercel.app/api](https://bookit-backend-seven.vercel.app/api)
 
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
+
 
 © 2025 Pradumya Gaurav. All rights reserved."
